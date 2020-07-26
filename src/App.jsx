@@ -1,11 +1,11 @@
 import React from 'react';
-import AccountDropdown from './AccountDropdown';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <div className="antialiased text-gray-900">
-      <div className="bg-gray-800 min-h-screen py-32 px-6">
-        <AccountDropdown />
+      <div className="bg-gray-200 min-h-screen">
+        <Navbar />
       </div>
     </div>
   );

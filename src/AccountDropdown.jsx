@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function AccountDropdown() {
+export default function AccountDropdown({ className = '' }) {
   return (
-    <div>
+    <div className={`relative ${className}`}>
       <button className="block h-8 w-8 rounded-full overflow-hidden border-2 border-gray-600 focus:outline focus:border-white">
         <img
           className="h-full w-full object-cover"
@@ -10,7 +10,7 @@ export default function AccountDropdown() {
           alt="Your avatar"
         />
       </button>
-      <div className="mt-2 py-2 w-48 bg-white rounded-lg shadow-xl">
+      <div className="absolute right-0 mt-2 py-2 w-48 bg-white rounded-lg shadow-xl">
         <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white">Account settings</a>
         <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white">Support</a>
         <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white">Sign out</a>
