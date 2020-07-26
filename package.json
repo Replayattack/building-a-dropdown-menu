@@ -14,8 +14,11 @@
     "@snowpack/app-scripts-react": "^1.6.0-alpha.0",
     "@testing-library/jest-dom": "^5.5.0",
     "@testing-library/react": "^10.0.3",
+    "autoprefixer": "^9.8.5",
     "jest": "^25.4.0",
+    "postcss-cli": "^7.1.1",
     "prettier": "^2.0.5",
-    "snowpack": "^2.6.4"
+    "snowpack": "^2.6.4",
+    "tailwindcss": "^1.5.2"
   }
 }
